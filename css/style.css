@@ -4,7 +4,24 @@
 }
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+
+.bg-light-pink {
+    background-color: rgba(167, 33, 98, 0.15);
+}
+
+.bg-light-blue {
+    background-color: rgba(5, 151, 160, 0.15);
+}
+
+.bg-light-green {
+    background-color: rgba(71, 125, 17, 0.15);
 }
 
 .container {
@@ -12,28 +29,24 @@ body {
     margin: 0 auto;
 }
 
-img {
-    width: 100%;
-}
-
 .header-section {
-    background: rgba(229, 84, 115, 0.10);
-    padding-top: 100px;
+    background: rgba(229, 84, 115, 0.1);
+    padding-top: 50px;
 }
 
 .banner-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 100px;
+    gap: 90px;
 }
 
 .banner-text {
-    max-width: 60%;
+    max-width: 682px;
 }
 
 .banner-image {
-    max-width: 635px;
+    max-width: 640px;
 }
 
 .title {
@@ -43,21 +56,73 @@ img {
 }
 
 .description {
-    color: rgba(39, 39, 39, 0.60);
+    color: rgba(39, 39, 39, 0.6);
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
     margin: 32px 0;
+    padding-right: 100px;
 }
 
 .btn {
-    color: #FFF;
+    color: #fff;
     font-size: 20px;
     font-weight: 700;
     border-radius: 8px;
-    background: #E55473;
+    background: #e55473;
     text-decoration: none;
     padding: 20px 40px;
     display: inline-block;
-    margin-bottom: 60px;
+}
+
+.features-section {
+    padding: 150px 0;
+}
+
+.section-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.section-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 20px 380px;
+}
+
+.feature-items-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.feature-item {
+    text-align: center;
+}
+
+.feature-photo {
+	border-radius: 300px 300px 0px 0px;
+	padding: 60px 30px 0 30px;
+}
+
+.feature-img {
+    width: 330px;
+    height: 450px;
+}
+
+
+.feature-item a {
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    margin-top: 32px;
+    display: block;
 }
