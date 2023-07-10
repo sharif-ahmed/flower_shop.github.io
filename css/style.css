@@ -92,7 +92,7 @@ img {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    padding: 20px 380px;
+    padding: 20px 300px;
 }
 
 .feature-items-wrapper {
@@ -106,8 +106,8 @@ img {
 }
 
 .feature-photo {
-	border-radius: 300px 300px 0px 0px;
-	padding: 60px 30px 0 30px;
+    border-radius: 300px 300px 0px 0px;
+    padding: 60px 30px 0 30px;
 }
 
 .feature-img {
@@ -125,4 +125,80 @@ img {
     text-decoration-line: underline;
     margin-top: 32px;
     display: block;
+}
+
+.services-wrapper {
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 130px;
+}
+
+.service-item {
+    text-align: center;
+    padding: 88px 0;
+}
+
+.service-icon {
+    width: 88px;
+    height: 88px;
+}
+
+.item-description {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+    margin-top: 15px;
+}
+
+.offer-section {
+    padding: 100px 0;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+
+}
+
+.offer-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.offer-text {
+    text-align: center;
+    width: 50%;
+}
+
+.pink-text {
+    color: #E55473;
+}
+
+.offer-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.offer-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 0 50px;
+}
+
+.instagram-section {
+    padding: 100px 0;
+}
+
+.instagram-items-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    margin-top: 50px;
 }
