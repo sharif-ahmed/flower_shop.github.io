@@ -54,6 +54,7 @@ img {
     text-decoration: none;
     padding: 20px 40px;
     display: inline-block;
+    cursor: pointer;
 }
 
 
